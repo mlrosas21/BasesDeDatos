@@ -1,0 +1,4 @@
+SELECT EmpleadoID, COUNT(*) FROM facturas
+GROUP BY EmpleadoID
+ORDER BY COUNT(*) DESC
+LIMIT 1

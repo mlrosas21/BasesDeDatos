@@ -1,0 +1,5 @@
+-- Left join muestra todos los datos de la primer tabla y la intersección con la segunda tabla. Right join hace lo mismo pero con la segunda tabla
+-- El orden que se procesan las queries es el siguiente: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY
+-- AVG(cantLikes)
+-- El primer ID que mostraría es el 28, hasta el 48
+-- GROUP BY, ORDER BY y DISTINCT consumen muchos recursos, por eso es aconsejable evitar usarlos en la medida de lo posible

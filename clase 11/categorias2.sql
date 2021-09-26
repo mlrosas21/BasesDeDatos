@@ -1,0 +1,1 @@
+SELECT CategoriaID, CategoriaNombre, Descripcion FROM categorias

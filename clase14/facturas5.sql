@@ -1,0 +1,5 @@
+SELECT PaisEnvio, COUNT(FacturaID)
+FROM facturas
+GROUP BY PaisEnvio
+ORDER BY COUNT(FacturaID) ASC
+LIMIT 1

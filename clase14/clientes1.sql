@@ -1,0 +1,2 @@
+SELECT COUNT(ClienteID) as 'CANTIDAD DE CLIENTES'
+FROM clientes
